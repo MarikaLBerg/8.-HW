@@ -20,17 +20,17 @@
   height: 80px;
   margin: 10px 0;
   padding: 20px;
-  background: white;
+  background:  rgb(64, 69, 109);
 }
 
 .footer {
   display: flex;
   width: 100%;
-  height: 80px;
+  min-height: 80px;
   margin: 10px 0;
   margin-top: auto;
   padding: 20px;
-  background: white;
+  background: rgb(64, 69, 109);
 }
 
 .content {
@@ -55,7 +55,7 @@
   width: 100px; 
   height: 150px; 
   margin: 5px; 
-  border: 1px solid #7c7a7a; 
+  border: 1px solid #1c1b1b; 
   display: inline-block; 
 }
 
