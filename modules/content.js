@@ -17,9 +17,10 @@ const newCardData = [
 
 const newCards = newCardData.map(el => new Element('div', 'small-card', el).get());
 
-const cardSection = new Element('div', 'card-section', cards);
-const newCardSection = new Element('div', 'new-card-section', newCards);
+// Вызов метода get() для получения элементов
+const cardSection = new Element('div', 'card-section', cards).get();
+const newCardSection = new Element('div', 'new-card-section', newCards).get();
 
-const content = new Element('div', 'content', [cardSection, newCardSection]);
+const content = new Element('div', 'content', [cardSection, newCardSection]).get();
 
 export default content;
