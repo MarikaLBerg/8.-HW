@@ -48,14 +48,14 @@
   height: 180px;
   margin: 10px;
   padding: 20px;
-  background: white;
+  background: rgb(158, 129, 129);
 }
 
 .small-card {
   width: 100px; 
   height: 150px; 
   margin: 5px; 
-  border: 1px solid #1c1b1b; 
+  border: 1px solid #100f0f; 
   display: inline-block; 
 }
 
